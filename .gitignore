@@ -1,0 +1,16 @@
+# dependencies / build
+node_modules/
+dist/
+
+# local config (contains a dev password — never commit)
+.env.local
+*.local
+
+# runtime artifacts
+dev-server.log
+*.pid
+.omc/
+
+# debug leftovers (vendored copy + standalone player)
+hls.min.js
+standalone-player.html

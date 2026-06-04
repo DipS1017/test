@@ -1,0 +1,23 @@
+{
+  "name": "livestream-test-ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Throwaway local UI to understand the WePreach livestream flow. NOT part of the API repo. Never commit.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "setup": "bash ./setup.sh",
+    "teardown": "bash ./teardown.sh"
+  },
+  "dependencies": {
+    "hls.js": "^1.5.13",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.0"
+  }
+}
